@@ -2,7 +2,7 @@ var express = require('express');
 var app = express();
 
 app.get("/", function(req, res){
-    console.log("SOMEONE REQUESTED US!");
+    res.send("You've reached the homepage!");
 });
 
  app.listen(443, function(){
